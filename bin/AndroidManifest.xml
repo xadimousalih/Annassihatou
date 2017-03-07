@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tab28.annassihatou"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SpalshScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LecteurStreaming"
+            android:label="@string/title_activity_lecteur" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.histoire.Activity_Histoire"
+            android:label="@string/histoire" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.histoire.HistoireListeActivity"
+            android:label="@string/histoire" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.Activity_MbindumSerigneBi"
+            android:label="@string/mbindumsbi" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MbindumSBiListeActivity"
+            android:label="@string/mbindumsbi" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.SahadatouToulabListeActivity"
+            android:label="@string/saha" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.FiqhListeActivity"
+            android:label="@string/tny4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.TazawudusShubbaanListeActivity"
+            android:label="@string/fiqh1" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.TazawudusSixaarListeActivity"
+            android:label="@string/fiqh2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.JawharListeActivity"
+            android:label="@string/fiqh3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MawahibulXudusListeActivity"
+            android:label="@string/nahju" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.NahjuListeActivity"
+            android:label="@string/fiqh3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.TassawoufListeActivity"
+            android:label="@string/msbi5" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MoulayinouListeActivity"
+            android:label="@string/tassawouf1" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.JaalibListeActivity"
+            android:label="@string/tassawouf2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MounawirouListeActivity"
+            android:label="@string/tassawouf3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.HuqqaListeActivity"
+            android:label="@string/tassawouf4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.FathouListeActivity"
+            android:label="@string/tassawouf5" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MassalikListeActivity"
+            android:label="@string/tassawouf6" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MaxaalikListeActivity"
+            android:label="@string/tassawouf7" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MouhamadListeActivity"
+            android:label="@string/msbi6" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MajmahuListeActivity"
+            android:label="@string/msbi7" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MajnuListeActivity"
+            android:label="@string/majmahu2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.ZaduListeActivity"
+            android:label="@string/majmahu3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.LaysaListeActivity"
+            android:label="@string/majmahu4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.SilkuListeActivity"
+            android:label="@string/majmahu5" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MinnaxListeActivity"
+            android:label="@string/majmahu6" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.RaiyaListeActivity"
+            android:label="@string/majmahu7" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.HamatSouleymaneListeActivity"
+            android:label="@string/majmahu8" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MuxadamaatListeActivity"
+            android:label="@string/majmahu9" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.JazbuListeActivity"
+            android:label="@string/majmahu10" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.mbindumserignebi.MawaahibuListeActivity"
+            android:label="@string/majmahu11" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.Activity_TeereNaarYi"
+            android:label="@string/tny" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.TeereNarYiListeActivity"
+            android:label="@string/tny" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.LoughaActivity"
+            android:label="@string/tny2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.HaririyActivity"
+            android:label="@string/tnyLugha0" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.SamaqmaqActivity"
+            android:label="@string/tnyLugha1" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.IbnDuraydinActivity"
+            android:label="@string/tnyLugha2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.HamziyyaActivity"
+            android:label="@string/tnyLugha3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.DaaliyyahActivity"
+            android:label="@string/tnyLugha4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.BourdatouActivity"
+            android:label="@string/tnyLugha5" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.ShuaraActivity"
+            android:label="@string/tnyLugha6" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.NahwuActivity"
+            android:label="@string/tny3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AjrumiyaActivity"
+            android:label="@string/ajrumiya" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.NazhatouActivity"
+            android:label="@string/nazhatu" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.NahwulActivity"
+            android:label="@string/nahwul" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.FiqhActivity"
+            android:label="@string/tny4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.MoukhtassarActivity"
+            android:label="@string/tnyfiqh1" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.TuhfatulHukamActivity"
+            android:label="@string/tnyfiqh2" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AsaluMassalikActivity"
+            android:label="@string/tnyfiqh3" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.MuxaddamatulHizziyyahActivity"
+            android:label="@string/tnyfiqh4" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.ArissalaActivity"
+            android:label="@string/tnyfiqh5" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AchmawiyouActivity"
+            android:label="@string/tnyfiqh6" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.ManurahbiyaActivity"
+            android:label="@string/tnyfiqh7" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AlahdariyuActivity"
+            android:label="@string/tnyfiqh8" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.IbnanchirActivity"
+            android:label="@string/tnyfiqh9" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.KutubunActivity"
+            android:label="@string/tny7" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.ArbahunaHadissActivity"
+            android:label="@string/tny71" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AlinchaActivity"
+            android:label="@string/tny72" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.JawharulMunazamActivity"
+            android:label="@string/tny73" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AlfiyaActivity"
+            android:label="@string/tny74" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.MunawaraqActivity"
+            android:label="@string/tny75" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.ZawrakhulActivity"
+            android:label="@string/tny76" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.AlAnfoussActivity"
+            android:label="@string/tny77" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.teerenaaryi.MubayyinulAchkaalActivity"
+            android:label="@string/tny78" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.SerigneAbdouRahmaneListeActivity"
+            android:label="@string/sar" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.Activity_SerigneAbdouRahmane"
+            android:label="@string/sar" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.XassidatouWadaahActivity"
+            android:label="@string/wadaah" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.AsilatounActivity"
+            android:label="@string/asila" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.WaxtaanSAKMActivity"
+            android:label="@string/wsakm" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.MawaqifActivity"
+            android:label="@string/rudud" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.XamSayFarataActivity"
+            android:label="@string/xamsayfarata" >
+        </activity>
+        <activity
+            android:name="com.tab28.annassihatou.serigneabdourahmane.NassihatouActivity"
+            android:label="@string/nassihatou" >
+        </activity>
+    </application>
+
+</manifest>
